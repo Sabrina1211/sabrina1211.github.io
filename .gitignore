@@ -208,6 +208,6 @@ __marimo__/
 
 /.quarto/
 **/*.quarto_ipynb
-_site
+_site/
 /.venv/
 
