@@ -154,7 +154,7 @@ ul.task-list li input[type="checkbox"] {
           <h4 class="anchored">JavaScript</h4>
         </div>
         <div class="skill">
-          <span class="chart" data-percent="30"><span class="percent">30</span><canvas height="50" width="152"></canvas></span>
+          <span class="chart" data-percent="70"><span class="percent">70</span><canvas height="50" width="152"></canvas></span>
           <h4 class="anchored">Python</h4>
         </div>
         <div class="skill">
@@ -379,7 +379,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/Sabrina1211\.github\.io\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
