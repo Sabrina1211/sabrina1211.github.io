@@ -1,21 +1,28 @@
 project:
   type: website
+  resources:
+    - css/**
+    - js/**
+    - images/**
 
 website:
-  title: "Sabrina Minaya Vasquez"
+  title: "Sabrina Minaya"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - text: "Home"
+        href: "#slides"
+      - text: "About"
+        href: "#about"
+      - text: "Skills"
+        href: "#skills"
+      - text: "Projects"
+        href: "#portafolio"
+      - text: "Contact"
+        href: "#contact-info"
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
-    css: styles.css
-    toc: true
-
-
+    theme: none
+    include-in-header: includes/head.html
+    include-after-body: includes/after-body.html
 
